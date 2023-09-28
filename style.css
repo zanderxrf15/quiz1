@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+BODY {
+    background-color: #0D1117; /* Dark blue color */
+    color: #C9D1D9; /* Light gray color */
+    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+}
+
+H1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+    color: #58A6FF; /* Bright blue color */
+}
+
+P {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+NAV {
+    background-color: #161B22; /* Slightly lighter than body background */
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+NAV A {
+    color: #C9D1D9; /* Same as body text color */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+NAV A:hover {
+    color: #58A6FF; /* Same as H1 color */
+}
+
+UL {
+    padding: 0 20px;
+}
+
+LI {
+    margin-bottom: 10px;
+}
